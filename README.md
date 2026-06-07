@@ -52,8 +52,44 @@ Cách 2: Chạy phiên bản Giao diện Web (V2 - Khuyên dùng)
 Mở terminal và khởi động server Streamlit:
 
 Bash
-streamlit run app.py
+python -m streamlit run app.py
 Trình duyệt sẽ tự động mở trang Dashboard tại địa chỉ http://localhost:8501. Giao diện được chia làm 2 khối quản trị Nguồn tiền và Giao dịch độc lập, tích hợp xuất báo cáo chỉ số hiệu năng tự động.
 
 🔒 Tuyên bố Bảo mật
 Mã nguồn này được viết vì mục đích giáo dục và thử nghiệm trên mạng lưới Sepolia Testnet. Không bao giờ hard-code Private Key thật chứa tài sản Mainnet vào bên trong mã nguồn.
+---
+
+## ☁️ Hướng dẫn Triển khai lên Đám mây (Cloud Deployment)
+
+Nếu bạn muốn tự đưa ứng dụng này lên mạng Internet để truy cập từ bất kỳ đâu (điện thoại, máy tính khác) mà không tốn chi phí thuê máy chủ, bạn có thể sử dụng **Streamlit Community Cloud**.
+
+**Bước 1: Fork kho lưu trữ này**
+Nhấn vào nút **Fork** ở góc trên cùng bên phải của trang GitHub này để tạo một bản sao dự án về tài khoản GitHub của riêng bạn.
+
+**Bước 2: Chuẩn bị tệp thư viện**
+Hệ thống đã có sẵn tệp `requirements.txt` với cấu hình tương thích vạn năng (không fix cứng phiên bản để tránh xung đột trên Cloud):
+```text
+web3
+eth-account
+streamlit
+```
+Bước 3: Kết nối và Triển khai (Deploy)
+
+Truy cập vào Streamlit Community Cloud và đăng nhập bằng tài khoản GitHub của bạn.
+
+Nhấn nút New app (Tạo ứng dụng mới).
+
+Điền các thông tin cấp phép trỏ về kho chứa của bạn:
+
+Repository: [Tên-GitHub-của-bạn]/web3-wallet-guide
+
+Branch: main
+
+Main file path: app.py
+
+Nhấn Deploy!
+
+Hệ thống sẽ tự động cấp phát máy chủ, cài đặt thư viện phần mềm và khởi chạy. Quá trình này mất khoảng 1-2 phút. Sau khi hoàn tất, bạn sẽ nhận được một đường link Public (ví dụ: https://your-app-name.streamlit.app) để sử dụng và chia sẻ với mọi người.
+
+⚠️ Lưu ý Bảo mật khi Deploy:
+Môi trường Cloud là môi trường công khai. Nếu bạn có ý định phát triển tiếp để giao dịch tiền thật (Mainnet), tuyệt đối không để Private Key dạng text trong mã nguồn. Hãy sử dụng tính năng Secrets Management (Quản lý biến môi trường bảo mật) của nền tảng Streamlit Cloud để lưu trữ khóa.
