@@ -48,7 +48,7 @@ source venv/bin/activate
 Bash
 pip install web3 eth-account streamlit
 
-💻 Hướng dẫn sử dụng (Usage)
+💻 Hướng dẫn sử dụng (Usage):
 
 Trước khi chạy, hãy mở file mã nguồn và cấu hình lại biến SENDER_PRIVATE_KEY và SENDER_ADDRESS bằng ví thử nghiệm của riêng bạn.
 
