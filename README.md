@@ -20,7 +20,7 @@ Dự án được xây dựng qua 2 giai đoạn để chứng minh sự tách b
 ## 🛠️ Hướng dẫn cài đặt (Installation)
 
 **1. Clone repository này về máy:**
-```bash
+bash
 git clone [https://github.com/chienprovjp/web3-wallet-guide.git](https://github.com/chienprovjp/web3-wallet-guide.git)
 cd web3-wallet-guide
 (Tùy chọn) Tạo môi trường ảo Virtual Environment:
