@@ -57,6 +57,7 @@ Mở terminal và gõ lệnh:
 
 Bash
 python demo.py
+
 Giao diện dòng lệnh sẽ yêu cầu bạn nhấn Enter lần lượt để đi qua 3 bước: Tạo ví -> Kiểm tra sổ cái -> Ký số giao dịch.
 
 Cách 2: Chạy phiên bản Giao diện Web (V2 - Khuyên dùng)
@@ -64,6 +65,7 @@ Mở terminal và khởi động server Streamlit:
 
 Bash
 python -m streamlit run app.py
+
 Trình duyệt sẽ tự động mở trang Dashboard tại địa chỉ http://localhost:8501. Giao diện được chia làm 2 khối quản trị Nguồn tiền và Giao dịch độc lập, tích hợp xuất báo cáo chỉ số hiệu năng tự động.
 
 🔒 Tuyên bố Bảo mật
