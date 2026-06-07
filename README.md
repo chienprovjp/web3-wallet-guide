@@ -3,6 +3,15 @@
 Dự án mô phỏng kiến trúc hoạt động cốt lõi của ví tiền điện tử phi tập trung, tập trung vào thuật toán chữ ký số Đường cong Elliptic (ECDSA), quản lý khóa ngoại tuyến (Offline Signing) và giao tiếp trực tiếp với Node mạng lưới Ethereum thông qua chuẩn JSON-RPC. 
 
 Đây là đồ án nghiên cứu thuộc môn học Mật mã và An toàn Thông tin.
+---
+
+## 🆕 Tài liệu dành cho người mới bắt đầu (Crypto Basics)
+
+Nếu bạn chưa từng tiếp xúc với thị trường tiền điện tử hoặc muốn tìm hiểu cách tạo ví trên các ứng dụng đại chúng, hãy đọc qua cuốn cẩm nang hướng dẫn chi tiết của dự án tại đây:
+
+👉 **[ĐỌC CẨM NANG: Hướng dẫn cơ bản về Ví Crypto & Binance/MetaMask](CRYPTO_BASICS.md)**
+
+---
 
 ## 🚀 Quá trình phát triển (Changelog)
 
@@ -90,6 +99,7 @@ Main file path: app.py
 Nhấn Deploy!
 
 Hệ thống sẽ tự động cấp phát máy chủ, cài đặt thư viện phần mềm và khởi chạy. Quá trình này mất khoảng 1-2 phút. Sau khi hoàn tất, bạn sẽ nhận được một đường link Public (ví dụ: https://your-app-name.streamlit.app) để sử dụng và chia sẻ với mọi người.
+🆕 Dành cho người mới bắt đầu: Nếu bạn chưa từng tiếp xúc với tiền điện tử, hãy đọc qua cuốn cẩm nang nhỏ của dự án: 👉 Hướng dẫn cơ bản về Ví Crypto & Binance/MetaMask
 
 ⚠️ Lưu ý Bảo mật khi Deploy:
 Môi trường Cloud là môi trường công khai. Nếu bạn có ý định phát triển tiếp để giao dịch tiền thật (Mainnet), tuyệt đối không để Private Key dạng text trong mã nguồn. Hãy sử dụng tính năng Secrets Management (Quản lý biến môi trường bảo mật) của nền tảng Streamlit Cloud để lưu trữ khóa.
