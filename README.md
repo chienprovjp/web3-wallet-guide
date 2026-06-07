@@ -23,3 +23,33 @@ Dự án được xây dựng qua 2 giai đoạn để chứng minh sự tách b
    ```bash
    git clone [https://github.com/TÊN_GITHUB_CỦA_BẠN/TEN_REPO.git](https://github.com/TÊN_GITHUB_CỦA_BẠN/TEN_REPO.git)
    cd TEN_REPO
+(Tùy chọn) Tạo môi trường ảo Virtual Environment:
+
+Bash
+python -m venv venv
+# Kích hoạt trên Windows:
+venv\Scripts\activate
+# Kích hoạt trên Mac/Linux:
+source venv/bin/activate
+Cài đặt các thư viện lõi:
+
+Bash
+pip install -r requirements.txt
+Trước khi chạy, hãy mở file mã nguồn và cấu hình lại SENDER_PRIVATE_KEY và SENDER_ADDRESS bằng ví thử nghiệm của riêng bạn.
+
+Cách 1: Chạy phiên bản Terminal lõi (V1)
+Mở terminal và gõ lệnh:
+
+Bash
+python demo.py
+Giao diện dòng lệnh sẽ yêu cầu bạn nhấn Enter lần lượt để đi qua 3 bước: Tạo ví -> Kiểm tra sổ cái -> Ký số giao dịch.
+
+Cách 2: Chạy phiên bản Giao diện Web (V2 - Khuyên dùng)
+Mở terminal và khởi động server Streamlit:
+
+Bash
+streamlit run app.py
+Trình duyệt sẽ tự động mở trang Dashboard tại địa chỉ http://localhost:8501. Giao diện được chia làm 2 khối quản trị Nguồn tiền và Giao dịch độc lập, tích hợp xuất báo cáo chỉ số hiệu năng tự động.
+
+🔒 Tuyên bố Bảo mật
+Mã nguồn này được viết vì mục đích giáo dục và thử nghiệm trên mạng lưới Sepolia Testnet. Không bao giờ hard-code Private Key thật chứa tài sản Mainnet vào bên trong mã nguồn.
