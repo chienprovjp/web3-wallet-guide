@@ -57,6 +57,3 @@ Trình duyệt sẽ tự động mở trang Dashboard tại địa chỉ http://
 
 🔒 Tuyên bố Bảo mật
 Mã nguồn này được viết vì mục đích giáo dục và thử nghiệm trên mạng lưới Sepolia Testnet. Không bao giờ hard-code Private Key thật chứa tài sản Mainnet vào bên trong mã nguồn.
-
-
-Sau khi bạn lưu lại (Commit), GitHub sẽ render các khối code (
