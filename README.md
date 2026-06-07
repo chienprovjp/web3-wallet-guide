@@ -2,7 +2,7 @@
 
 Dự án mô phỏng kiến trúc hoạt động cốt lõi của ví tiền điện tử phi tập trung, tập trung vào thuật toán chữ ký số Đường cong Elliptic (ECDSA), quản lý khóa ngoại tuyến (Offline Signing) và giao tiếp trực tiếp với Node mạng lưới Ethereum thông qua chuẩn JSON-RPC. 
 
-Đây là đồ án nghiên cứu thuộc môn học Mật mã và An toàn Thông tin (INT3230E).
+Đây là đồ án nghiên cứu thuộc môn học Mật mã và An toàn Thông tin.
 
 ## 🚀 Quá trình phát triển (Changelog)
 
@@ -19,10 +19,10 @@ Dự án được xây dựng qua 2 giai đoạn để chứng minh sự tách b
 
 ## 🛠️ Hướng dẫn cài đặt (Installation)
 
-1. **Clone repository này về máy:**
-   ```bash
-   git clone [https://github.com/TÊN_GITHUB_CỦA_BẠN/TEN_REPO.git](https://github.com/TÊN_GITHUB_CỦA_BẠN/TEN_REPO.git)
-   cd TEN_REPO
+**1. Clone repository này về máy:**
+```bash
+git clone [https://github.com/chienprovjp/web3-wallet-guide.git](https://github.com/chienprovjp/web3-wallet-guide.git)
+cd web3-wallet-guide
 (Tùy chọn) Tạo môi trường ảo Virtual Environment:
 
 Bash
