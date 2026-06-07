@@ -96,7 +96,7 @@ Branch: main
 
 Main file path: app.py
 
-Nhấn Deploy!
+Bước 4: Nhấn Deploy!
 
 Hệ thống sẽ tự động cấp phát máy chủ, cài đặt thư viện phần mềm và khởi chạy. Quá trình này mất khoảng 1-2 phút. Sau khi hoàn tất, bạn sẽ nhận được một đường link Public (ví dụ: https://your-app-name.streamlit.app) để sử dụng và chia sẻ với mọi người.
 🆕 Dành cho người mới bắt đầu: Nếu bạn chưa từng tiếp xúc với tiền điện tử, hãy đọc qua cuốn cẩm nang nhỏ của dự án: 👉 Hướng dẫn cơ bản về Ví Crypto & Binance/MetaMask
